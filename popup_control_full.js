@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://mekongcorp.com.vn/van-tai-thuy-noi-dia-1' target='_blank'><img src='https://lh3.googleusercontent.com/35pE1f_nu4ZXBfqoZ0n4Ff8mA2t50y07lN1kq7iDuYREQ1WhcmqMUnzIWYb8ItC3odfVhFC8zw=w1366-h768-rw-no' width='500px'/></a><h2><a class='close-linhnguyen-modal'>X</a></h2>");
+		$("#myModal").html("<a href='http://mekongcorp.com.vn/van-tai-thuy-noi-dia-1' target='_blank'><img src='https://lh3.googleusercontent.com/35pE1f_nu4ZXBfqoZ0n4Ff8mA2t50y07lN1kq7iDuYREQ1WhcmqMUnzIWYb8ItC3odfVhFC8zw=w1366-h768-rw-no' width='500px'/>Đào tạo seo chuyên sâu</a>. Học tại nhà Linh Nguyễn. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
